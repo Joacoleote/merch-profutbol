@@ -1,0 +1,179 @@
+.body {
+    background-color: #0a5e36;
+    margin: 0;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Lato";
+}
+
+.container {
+    width: 900lx;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 400px;
+    margin: 20px 0;
+}
+.god {
+    display: flex;
+    flex-direction: row;
+}
+.subtitulo {
+    font-size: 60px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#izq {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    background-color: #023b1f;
+}
+#der {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    color: black;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    height: 550px
+
+}
+.list  {
+    font-size: 30px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.carrito {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: end;
+}
+
+.carrito-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product {
+    width: 200px;
+    height: 450px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+
+.product h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.product select {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+.button-list {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filtrar {
+    font-size: medium;
+}
+
+#bienvenidos-merch {
+    font-size: 20px;
+    color: #66dd20;
+    margin: 0;
+    padding: 0;
+    text-align: center;   
+}
+
+.precio {
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-weight: 700; 
+    font-size: 15px;
+}
+
+#estrellas {
+    text-align: left;
+}
+
+.a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: #516deb;
+}
+
+.a:visited {
+    color: #cccccc;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #28a745;
+    margin-bottom: 10px;
+    background-color: #28a745;
+    color: #fff;
+}
